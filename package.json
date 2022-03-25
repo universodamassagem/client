@@ -1,4 +1,9 @@
 {
+  "engines": {
+    "npm": "8.5.4",
+    "node": "14.18.0",
+    "yarn": "1.22.17"
+  },
   "name": "client",
   "version": "0.1.0",
   "private": true,
