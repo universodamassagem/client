@@ -1,0 +1,163 @@
+#EntreEmContato {
+    width: 100%;
+    background-color: #0a0a0c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.eec_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eec_center--small{
+    height: 200px;
+}
+.eec_center--big {
+    height: 320px;
+    flex-direction: column;
+}
+
+#EntreEmContato h3, #EntreEmContato h2 {
+    font-family: 'Marcellus Regular';
+    margin-bottom: 25px;
+}
+.eec_text {
+    font-size: 1.3em;
+    font-weight: 500;
+    width: 360px;
+    color: rgb(196, 196, 196);
+    text-align: center;
+    
+}
+
+.eec_center--small .eec_text {
+    margin-right: 40px;
+}
+
+.eec_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eec_center--big .eec_buttons {
+    margin-top: 35px;
+}
+
+.eec_center--small .eec_buttons {
+    flex-direction: column;
+}
+
+.eec_center--small .eec_buttons button:first-child{
+    margin-bottom: 20px;
+}
+
+
+/*
+.eec_ws_absolute {
+    position: absolute;
+    background-image: url('../../../assets/ws.png');
+}
+
+.eec_ws_absolute--left {
+    top: 0;
+    left: 0;
+    background-color: #945354;
+    height: 100%;
+    z-index: 99;
+}
+*/
+
+.eec_absolute {
+    position: absolute;
+    width: 22%;
+    height: 100%;
+    top: 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.eec_absolute span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.eec_absolute--small_left {
+    left: 0;
+    background-image: url('../../../assets/gold_mandala_opacity_small_left.png');
+}
+.eec_absolute--big_left {
+    left: 0;
+    background-image: url('../../../assets/gold_mandala_opacity_big_left.png');
+}
+
+.eec_absolute--small_left span, .eec_absolute--big_left span {
+    background: linear-gradient(to right, transparent, #0a0a0c);
+}
+
+
+.eec_absolute--small_right {
+    right: 0;
+    background-image: url('../../../assets/gold_mandala_opacity_small_right.png');
+}
+.eec_absolute--big_right {
+    right: 0;
+    background-image: url('../../../assets/gold_mandala_opacity_big_right.png');
+}
+.eec_absolute--small_right span, .eec_absolute--big_right span {
+    background: linear-gradient(to left, transparent, #0a0a0c);
+}
+
+@media only screen and (max-width: 960px)  {
+
+    #EntreEmContato {
+        width: 100vw;
+        background-color: #0a0a0c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .eec_center button{
+        width: 100%;
+    }
+
+    .eec_center--big .eec_buttons {
+        flex-direction: column;
+    }
+
+    .eec_center--big .eec_buttons button{
+        margin-right: 0;
+    }
+
+    .eec_center--big .eec_buttons button:nth-child(2){
+        margin-top: 22px;
+        width: 70vw;
+    }
+
+    .eec_center--big .eec_buttons {
+        margin-top: 36px;
+    }
+
+    .eec_text {
+        font-size: 1.05em;
+        font-weight: 500;
+        width: 360px;
+        color: rgb(196, 196, 196);
+        text-align: center;   
+    }
+    
+}
+
+@media only screen and (max-width: 1040px)  {
+    .eec_absolute {
+        display: none;
+    }
+}

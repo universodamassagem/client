@@ -1,0 +1,119 @@
+#WhatsApp {
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    position: fixed;
+    display: flex;
+}
+
+
+#whatsapp {
+    margin: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    color: white;
+    
+    width: 70px;
+    height: 70px;
+    background-color: #27d367;
+    border-radius: 100px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+#whatsapp:hover ~ #whtasapp_msg {
+    display: flex;
+}
+
+#whtasapp_msg {
+    display: none;
+    margin-top: 15px;
+    height: 40px;
+    background-color: #fff;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, .2);
+    padding: 0px 20px 0px 20px;
+    border-radius: 50px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+
+    align-items: center;
+}
+/* 
+#mini_whatsapp {
+    width: 280px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+#miniW_header {
+    border-radius: 10px 10px 0 0;
+    background-color: #27d367;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#miniW_header span, #miniW_msg button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #00000080;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#miniW_msg button {
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    background-color: #27d367;
+    font-size: 1.4em;
+    box-shadow: 4px 2px 8px rgba(0, 0, 0, .3);
+}
+#miniW_header span:hover {
+    background-color: #00000060;
+}
+
+#miniW_bubble {
+    width: 100%;
+    height: 60%;
+}
+
+#miniW_msg {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#miniW_msg form {
+    background-color: #27d367;
+    border-radius: 50px;
+    height: 40px;
+    margin-left: 8px;
+    box-shadow: 4px 2px 8px rgba(0, 0, 0, .3);
+}
+
+#miniW_msg form textarea{
+    border-style: none;
+    border-radius: 50px;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    text-indent: 15px;
+    height: calc(100% - 11px);
+    padding-top: 11px;
+} */

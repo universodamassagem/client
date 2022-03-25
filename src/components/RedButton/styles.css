@@ -1,0 +1,43 @@
+.RedButton {
+    border-style: none;
+    width: 180px;
+    position: relative;
+
+    background-color: #c76f71;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.RedButton--small {
+    border-radius: 50px;
+    height: 35px;
+}
+.RedButton--big {
+    border-radius: 50px;
+    margin-right: 25px;
+    height: 38px;
+}
+
+.RedButton span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 13px;
+    height: 100%;
+    font-size: 1.2em;
+    color: #945354;
+}
+
+.RedButton:hover {
+    background-color: #d14447 !important;
+    color: #fff !important;
+}
+
+.RedButton:hover span{
+    color: #db7475 !important;
+}

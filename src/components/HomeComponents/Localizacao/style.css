@@ -1,0 +1,55 @@
+#Localizacao {
+    width: 100%;
+    /*padding: 25px 0 25px 0;*/
+    padding: 0 0 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.local_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.local_center a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.local_nome {
+    height: 100%;
+}
+
+.local_nome h1 {
+    font-family: 'Marcellus Regular';
+    color: #c45455;
+}
+
+#local_icon {
+    height: 100%;
+}
+
+#local_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #c45455;
+    font-size: 1.6em;
+
+    margin-right: 10px;
+}
+
+.local_center:hover #local_icon {
+    color: #c23f41;
+    padding-bottom: 4px;
+}
+.local_center:hover h1 {
+    color: #c23f41;
+}

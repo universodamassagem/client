@@ -1,0 +1,55 @@
+#HForm {
+    width: 100%;
+    background-image: url("../../../assets/home_form.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 670px;
+    height: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1f1e1d; /* ERRO NO HFORM! */
+}
+
+.hform_wrapper {
+    width: 60%;
+}
+
+.Formulario--Home label {
+    color: #c78586;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+}
+.Formulario--Home input, .Formulario--Home textarea {
+    border: 1px solid #c9c9c9;
+    background-color: #fff;
+    border-radius: 4px;
+    text-indent: 13px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .4);
+}
+
+.Formulario--Home button {
+    background-color: #c76f71;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.Formulario--Home button:hover {
+    background-color: #d14447;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .4);
+}
+
+@media only screen and (max-width: 960px)  {
+    #HForm {
+        background-size: auto;
+        padding-bottom: 10px;
+    }
+
+    .hform_wrapper {
+        width: 88%;
+    }
+}

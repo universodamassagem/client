@@ -1,0 +1,30 @@
+#ContatoContent {
+    width: 100vw;
+}
+
+@media only screen and (max-width: 960px)  {
+    #wrap-contato-formulario {
+        flex-direction: column-reverse;
+    }
+
+    #contato-wrapper {
+        width: 94% !important;
+    }
+
+    #c-contato, #c-formulario {
+        width: 100% !important;
+        justify-content: flex-end !important;
+    }
+
+    #c-contato {
+        padding-bottom: 60px !important;
+    }
+
+    #c-contato span, #c-contato strong {
+        width: 85% !important;
+    }
+
+    .simple_titulo {
+        font-size: 1.8em !important;
+    }
+}

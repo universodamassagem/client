@@ -1,0 +1,117 @@
+.Formulario {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Formulario label {
+    display: flex;
+    flex-direction: column;
+
+
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 25px;
+}
+.Formulario--Contato label {
+    color: #c45455;
+}
+
+.Formulario input {
+    min-height: 40px;
+    margin-top: 10px;
+}
+
+
+.Formulario textarea {
+    resize: vertical;
+    width: 100%;
+    min-height: 230px;
+
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-top: 13px;
+}
+
+.Formulario form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_top_inputs {
+    width: 100%;
+    display: flex;
+}
+
+.form_top_inputs label{
+    width: 30%;
+}
+.form_top_inputs label:first-child, .form_top_inputs label:nth-child(2){
+    margin-right: 5%;
+}
+
+.form_botton_textArea {
+    width: 100%;
+}
+
+.form_button {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.form_button button {
+    width: 30%;
+    height: 100%;
+    border-style: none;
+}
+.Formulario--Contato input, .Formulario--Contato textarea {
+    border: 1px solid #c9c9c9;
+    text-indent: 13px;
+}
+
+.Formulario--Contato button {
+    background-color: #c45455;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Formulario--Contato button:hover {
+    background-color: #d14447;
+}
+
+@media only screen and (max-width: 960px)  {
+
+    .form_top_inputs {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form_top_inputs label{
+        width: 100%;
+    }
+    
+    .form_top_inputs label:first-child, .form_top_inputs label:nth-child(2){
+        margin-right: 0;
+    }
+    
+    .form_botton_textArea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .form_button {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .form_button button {
+        width: 100%;
+        font-size: 1em;
+    }
+}

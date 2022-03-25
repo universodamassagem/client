@@ -1,0 +1,151 @@
+#Banner {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.banner_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.absolute_banner_background_matte {
+    width: 100%;
+    position: absolute;
+    background-color: #312f2e;
+    left: 0;
+    top: 0;
+    height: 80%;
+    z-index: -1;
+}
+
+.small_video_wrapper {
+    width: 96%;
+    min-height: 480px;
+    min-height: 480px;
+    position: relative;
+}
+
+.absolute_small_video_content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #2b101080;
+}
+
+.small_video_content {
+    height: 100%;
+    width: 560px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.small_video_content strong, .small_video_content p {
+    margin-bottom: 50px;
+}
+
+.small_video_content strong {
+    color: rgb(196, 196, 196);
+    font-size: 1.1em;
+
+}
+.small_video_content p {
+   color: rgb(226, 226, 226);
+   font-size: 1.8em;
+   font-weight: 600;
+}
+.small_video_content button {
+    color: #fff;
+    border-style: none;
+    background: #c45455;
+    height: 45px;
+    border-radius: 50px;
+    padding: 0 60px 0 60px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.small_video_content button:hover {
+    background-color: #d14447;
+}
+
+#room-video {
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+}
+
+@media only screen and (max-width: 960px) {
+    #Banner {
+        position: relative;
+        height: 520px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        
+        background-image: url(../../../assets/room.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        background-color: #2b2325;
+    }
+    
+    .small_video_wrapper {
+        width: 96%;
+        position: relative;
+
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    
+    .absolute_small_video_content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small_video_content strong {
+        font-size: 1em;
+    
+    }
+
+    #room-video {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 780px) {
+    #Banner {
+        height: 380px;
+    }
+
+    .absolute_small_video_content {
+        top: -45px;
+    }
+
+    .small_video_content p {
+        font-size: 1.5em;
+     }
+  }
+  @media only screen and (max-width: 570px) {
+    #Banner {
+        background-size: auto;
+    }
+  }

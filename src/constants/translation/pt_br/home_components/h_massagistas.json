@@ -1,0 +1,19 @@
+{
+    "title": "Massagista",
+    "msg": "Conheça nossa massagista",
+    "button": "Ver perfil",
+    "massagistas": [
+        {
+            "name": "Susiane",
+            "city": "Lisboa",
+            "img": {
+                "avatar": "",
+                "galery": []
+            },
+            "home": true,
+            "desc": "Com o propósito de cuidar e trazer bem-estar às pessoas. Meu dom está em minhas mãos. ",
+            "number": "+351 926 735 707",
+            "email": "susianemonteny@gmail.com"
+        }
+    ]
+}

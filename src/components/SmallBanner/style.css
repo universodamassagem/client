@@ -1,0 +1,55 @@
+.SmallBanner {
+    width: 100%;
+    height: 240px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.SmallBanner--m {
+    background-image: url('../../assets/small_b_massagem.png');
+}
+.SmallBanner--e {
+    background-image: url('../../assets/small_b_e..png');
+    
+}
+.SmallBanner--m .smallb_absolute {
+    background-color: #00000095;
+}
+.SmallBanner--e .smallb_absolute {
+    background-color: #c4545599;
+}
+
+.smallb_absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.SmallBanner h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 3em;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 960px)  {
+    .SmallBanner h1 {
+        font-size: 26px;
+    }
+
+    .SmallBanner {
+        height: 90px;
+    }
+}
+
+

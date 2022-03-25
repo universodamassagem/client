@@ -1,0 +1,145 @@
+
+#Half {
+    width: 100%;
+    height: 34vw;
+}
+
+.half_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.half_image, .half_content {
+    width: 50%;
+    height: 100%;
+}
+
+.half_image {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.half_image--left {
+    background-image: url(../../../assets/half_left.jpg);
+}
+.half_image--right {
+    background-image: url(../../../assets/half_right.jpg);
+}
+
+.half_content {
+}
+
+.half_text_area {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.half_text_area strong {
+    font-family: 'Marcellus Regular';
+    font-size: 1.6em;
+    margin-bottom: 30px;
+    z-index: 2;
+    max-width: 90%;
+    text-align: center;
+}
+
+.half_text_area p {
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 200;
+    z-index: 2;
+    text-align: center;
+}
+
+.half_text_area button {
+    border-style: none;
+    width: 240px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.half_text_area span {
+    position: absolute;
+    display: none;
+}
+
+.half_text_area--right span {
+
+    display: flex;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('../../../assets/gold_mandala_opacity.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    z-index: 0;
+}
+
+
+.half_text_area div {
+    width: 70%;
+    z-index: 2;
+}
+
+.half_text_area--right {
+    background-color: #312f2e;
+    color: #fff;
+}
+
+.half_text_area--right button{
+    background-color: #fbf4f0;
+    color: #312f2e;
+}
+
+.half_text_area--left {
+    background-color: #fbf4f0;
+}
+
+.half_text_area--left button{
+    background-color: #312f2e;
+    color: #fff;
+}
+
+@media only screen and (max-width: 960px)  {
+    #Half {
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .half_wrapper {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .half_image, .half_content {
+        width: 100%;
+        height: 360px;
+    }
+
+    .half_text_area {
+        /* padding: 45px 0 45px 0; */
+    }
+    .half_text_area div {
+        width: 90%;
+    }
+}

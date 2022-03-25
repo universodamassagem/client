@@ -1,0 +1,262 @@
+#Header {
+    width: 100%;
+    height: fit-content;
+    background-color: #1f1e1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+    transition: padding 1000ms linear;
+    transition: background-color 500ms linear;
+    z-index: 98;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0);
+    
+}
+
+#header_at_center {
+    width: 80%;
+}
+
+.sticky {
+    padding: 10px 0 10px 0 !important;
+    position: fixed !important;
+    background-color: #c45455 !important;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, .2) !important;
+}
+
+.header_mid {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.mid, #nav {
+    width: fit-content;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+}
+#nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6px 0 6px;
+    color: #fff;
+}
+
+.nav_top ul li a:hover {
+    color: #ff3c40 !important;
+}
+.nav_fix ul li a:hover {
+    color: #752d2e !important;
+}
+
+.mid--logotipo {
+    display: flex;
+  }
+
+  .logotipo_column_left img {
+      display: none;
+      width: 42px; 
+      margin: 0px 20px;
+    }
+  
+  .logotipo_column_right,  .logotipo_column_left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logotipo_column_right {
+      flex-direction: column;
+      padding-right: 15px;
+  }
+
+ #h3 {
+    color: #a3a49c;
+    font-weight: 100;
+    font-family: 'Marcellus Regular';
+    font-size: 1em;
+    
+    transition: color 500ms linear;
+    
+  }
+
+  .logotipo_column_right h1 {
+      font-family: 'Marcellus Regular';
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1.5em;
+      color: #fff;
+      font-weight: 100;
+
+      /* PQ esse H1 parece ter um padding bottom ? s*/
+
+  }
+
+  
+
+  #logo {
+      display: flex;
+      font-size: 4em;
+      padding: 0 30px 0 0px;
+      color: #fff;
+  }
+
+/*
+#searchButton {
+      width: fit-content;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 15px 0 15px;
+      cursor: pointer;
+  }
+
+  #searchButton span {
+    font-size: 1em;
+    color: #fff;
+}
+
+.s_top:hover span {
+    color: #ff3c40 !important;
+}
+.s_fix:hover span {
+    color: #752d2e !important;
+}
+*/
+
+.put_divs_on_left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 70%;
+}
+.put_divs_on_right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 60%;
+    cursor: pointer;
+}
+
+#mobile_nav_button, #mobile_nav {
+    display: none;
+}
+
+/*background-color: #ff3c40;*/
+
+@media only screen and (max-width: 960px)  {
+    .logotipo_column_left img {display: block;}
+    
+    #nav {
+        display: none;
+    }
+
+    #Header, #header_at_center {
+        width: 100vw;
+        
+    }
+
+    #h3 {
+        
+        font-size: 10.4px;
+        color: #752d2e !important;
+      }
+    
+      .logotipo_column_right h1 {
+          font-weight: 900;
+          font-size: 12.2px;
+      }
+      
+      #logo {
+          font-size: 2.5em;
+          padding: 0 10px 0 20px;
+      }
+
+      #mobile_nav_button {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 20px;
+      }
+
+      #mobile_nav_button button {
+        border-style: none;
+        background-color: transparent;
+        border: 1.3px solid #dabdbd;
+        width: 35px;
+        height: 35px;
+        border-radius: 4px;
+      }
+
+      #mobile_nav_button span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #dabdbd;
+        font-size: 2em;
+    }
+
+    #Header {
+        flex-direction: column;
+    }
+
+    #mobile_nav {
+        background-color: #fff;
+        width: 100%;
+        display: none;
+
+        
+    }
+
+    #mobile_nav ul {
+        
+        width: 100%;
+    }
+
+    #mobile_nav li {
+        padding: 15px 0 15px 0;
+        border-bottom: 1px solid #00000010;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav li:active {
+        background-color: #c4545530;
+    }
+
+    #Header {
+        background-color: #c45455 !important;
+        padding: 0 !important;
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, .2) !important;
+        
+    }
+
+    .header_mid {
+        justify-content: space-between;
+    }
+    .put_divs_on_left, .put_divs_on_right {
+        width: fit-content;
+    }
+
+    #header_at_center {
+        height: 64px;
+    }
+}

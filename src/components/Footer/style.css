@@ -1,0 +1,73 @@
+#Footer {
+    width: 100%;
+    background-color: #1f1e1d;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.f--contatos {
+    flex-direction: column;
+}
+
+.f--contatos strong {
+    margin-bottom: 13px;
+}
+
+.conts--one, .conts--three {
+    color: #737271;
+}
+.conts--two {
+    color: #a3a49c;
+    font-size: 1.3em;
+}
+.conts--two a,
+.conts--two a:link,
+.conts--two a:visited,
+.conts--two a:hover,
+.conts--two a:active {
+    color: #a3a49c;
+}
+
+.f--logo {
+    color: #fff;
+    display: flex;
+    font-size: 7em;
+    margin-top: 40px;
+}
+
+.f--redes span {
+    display: flex;
+    color: #fff;
+    font-size: 1.3em;
+}
+.f--redes span:hover {
+    color: #c45455;
+}
+
+.f--redes span:first-child, .f--redes span:nth-child(2) {
+    margin-right: 13px;
+}
+.f--redes a {
+    cursor: pointer;
+}
+.f--redes a,
+.f--redes a:link,
+.f--redes a:visited,
+.f--redes a:hover,
+.f--redes a:active {
+    color: #fff;
+}
+
+.f--copyRight {
+    color: #6c6b6a;
+}
