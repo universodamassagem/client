@@ -1,5 +1,5 @@
 import React from "react";
-import { IoIosRose} from 'react-icons/io';
+//import { IoIosRose} from 'react-icons/io';
 import { FiInstagram, FiTwitter } from 'react-icons/fi'
 import { RiFacebookLine } from 'react-icons/ri'
 

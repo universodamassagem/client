@@ -3,7 +3,7 @@ import "./style.css";
 
 import Texto1 from '../../components/Texts/Texto1'
 import Texto2 from '../../components/Texts/Texto2'
-import Texto1_BulletList from '../../components/Texts/Texto1_BulletList'
+import TextBullet from '../../components/Texts/TextBullet'
 
 import sala_img from '../../assets/sala.jpg'
 import limpeza_de_pele from '../../assets/limpeza-de-pele.png'
@@ -22,7 +22,7 @@ export default function Content_Estetica () {
                 conteudo={txts[0].conteudo}
                 titulo={txts[0].titulo}
             />
-            <Texto1_BulletList 
+            <TextBullet 
                 BLista={txts[0].bullet_list}
             />
             <Texto2 

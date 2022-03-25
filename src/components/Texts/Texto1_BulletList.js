@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Texto1_BulletList (props) {
+export default function TextBullet (props) {
     return (
         <div>
             {props.BLista.map((it, idx) => (
