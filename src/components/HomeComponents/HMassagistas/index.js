@@ -7,7 +7,7 @@ import "./style.css";
 import RedButton from "../../RedButton";
 
 //TMP imagens:
-import i4 from "../../../assets/tmp_mon/i4.jpg"
+import i3 from "../../../assets/tmp_mon/i3.jpg"
 
 //import imagem from '../../../assets/mass_test.png'
 
@@ -26,7 +26,7 @@ export default function Massagistas () {
                         {txts.massagistas.map((it, idx) => (
                             <div className={`massagista massagista--${idx+1}`}>
                                 <div className="massagista_img">
-                                    <img src={i4}/>
+                                    <img src={i3}/>
                                     <ImgHover 
                                         name={it.name}
                                         city={it.city}
