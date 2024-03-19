@@ -12,6 +12,7 @@ import avatar from "../../assets/tmp_mon/avatar.jpg"
 import i1 from "../../assets/tmp_mon/i1.jpg"
 import i2 from "../../assets/tmp_mon/i2.jpg"
 import i3 from "../../assets/tmp_mon/i3.jpg"
+import i4 from "../../assets/tmp_mon/i4.jpg"
 
 const L = [
     {
@@ -33,7 +34,7 @@ const L = [
     {
         title: 'Atendimento',
         list: [
-            'Centro de Lisboa',
+            'Curitiba',
         ]
     },
 
@@ -76,6 +77,9 @@ export default function PerfilContent () {
                 </div>
                 <div>
                     <img src={i3}/>
+                </div>
+                <div>
+                    <img src={i4}/>
                 </div>
             </div>
         </div>

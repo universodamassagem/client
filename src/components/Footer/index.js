@@ -11,13 +11,13 @@ import "./style.css";
 //TMP image:
 import logotype from "../../assets/tmp_logo/logotype_test_black.png"
 
-export default function Footer () {
+export default function Footer() {
 
     return (
         <footer id="Footer">
             <div className='f f--logo'>
-                <img style={{width: '120px'}}src={logotype} />
-                
+                <img style={{ width: '120px' }} src={logotype} />
+
             </div>
             <div className='f f--contatos'>
                 <strong className='conts conts--one'>{txts.rua}</strong>
@@ -25,15 +25,15 @@ export default function Footer () {
                 <strong className='conts conts--two'> <a href={`mailto:${txts.email}`}></a>{txts.email}</strong>
                 <strong className='conts conts--three'>{txts.celular}</strong>
             </div>
-            <div className='f f--redes'>
+            {/*<div className='f f--redes'>
                 <a href={''}><span>
                     <FiInstagram />
                 </span></a>  
-                {/*<a href={''}><span><RiFacebookLine /></span></a>*/}
-                {/*<a href={''}><span><FiTwitter /></span></a>*/}
-            </div>
+                <a href={''}><span><RiFacebookLine /></span></a>
+               <a href={''}><span><FiTwitter /></span></a>
+            </div>*/}
             <div className='f f--copyRight'>
-                <p>© Universo da Massagem 2022 / Todos direitos reservados</p>
+                <p>© Universo da Massagem 2024 / Susiane Domingues Monteny</p>
             </div>
         </footer>
     );

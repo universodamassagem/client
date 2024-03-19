@@ -48,7 +48,8 @@ export default function Header (props) {
         <header id="Header" className=''>
             <div id='header_at_center'>
                 <div className='header_mid'>
-                <div className='put_divs_on_right'>
+                <a href='/
+                'className='put_divs_on_right'>
                     <div className='mid mid--logotipo'>
                         <div className='logotipo_column_left'>
                             <img src={logotype} />
@@ -58,7 +59,7 @@ export default function Header (props) {
                             <h3 id='h3'>{txts.subtitulo.toUpperCase()}</h3>
                         </div>
                     </div>
-                </div>
+                </a>
                     <div className='put_divs_on_left'>
                         <div id='nav' className='nav_top'>
                             <ul>

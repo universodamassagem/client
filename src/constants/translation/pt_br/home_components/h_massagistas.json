@@ -4,16 +4,37 @@
     "button": "Ver perfil",
     "massagistas": [
         {
+            "id":1,
             "name": "Susiane",
-            "city": "Lisboa",
+            "city": "Curitiba",
             "img": {
                 "avatar": "",
                 "galery": []
             },
             "home": true,
             "desc": "Com o propósito de cuidar e trazer bem-estar às pessoas. Meu dom está em minhas mãos. ",
-            "number": "+351 926 735 707",
+            "number": "41 9 9812-4378",
             "email": "susianemonteny@gmail.com"
+        },
+
+
+
+
+        {
+            "id": "a_plus",
+            "name": "a_plus",
+            "city": "a_plus",
+            "img": {
+                "avatar": "",
+                "galery": []
+            },
+            "home": true,
+            "desc": "a_plus",
+            "number": "a_plus",
+            "email": "a_plus"
         }
+
+
+
     ]
 }

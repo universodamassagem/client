@@ -13,6 +13,7 @@ import EntreEmContato from "../components/HomeComponents/EntreEmContato"
 import Half from "../components/HomeComponents/Half"
 
 import './styles.css';
+import Aplus from "../components/Aplus";
 
 
 export default function Home () {
@@ -29,11 +30,12 @@ export default function Home () {
             <Banner /> 
             <SobreAMassagem />
             <HMassagistas />
-            <Localizacao />
+           {/* <Localizacao />*/}
             <EntreEmContato size='small'/>
             <Half side='left'/>
             <Half side='right'/>
             <HForm />
+            <Aplus />
             <Footer />
         </div>
     );

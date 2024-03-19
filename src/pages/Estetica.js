@@ -8,7 +8,7 @@ import SmallB from "../components/SmallBanner";
 import EntreEmContato from "../components/HomeComponents/EntreEmContato"
 import Content_Estetica from "../components/Content--Estetica";
 
-import txts from '../constants/translation/pt_br/pages/estetica.json'
+import txts from '../constants/translation/pt_br/pages_/estetica.json'
 
 export default function Estetica () {
 

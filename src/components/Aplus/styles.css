@@ -1,0 +1,11 @@
+.a_plus_img {
+    filter: drop-shadow(2mm 2mm 2mm #c76f7120);
+    border-radius: 0 20px 20px 20px;
+    overflow: hidden;
+    max-width: 88vw;
+    cursor: pointer;
+}
+
+.a_plus_img:hover {
+    filter: drop-shadow(2mm 2mm 2mm #c76f7140);
+}
