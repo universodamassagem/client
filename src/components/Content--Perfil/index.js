@@ -75,9 +75,9 @@ export default function PerfilContent () {
                 <div>
                     <img src={i2}/>
                 </div>
-                <div>
+                {/*<div>
                     <img src={i3}/>
-                </div>
+                </div>*/}
                 <div>
                     <img src={i4}/>
                 </div>
