@@ -23,7 +23,7 @@ export default function ContatoContent () {
                     <div id='c-contato' style={{width:'40%', ...sty, flexDirection:'column'}}>
                         <strong style={{width:'100%', margin: '20px 0 20px 0', color:'#c45455', fontSize:'1.4em'}}> Contatos </strong>
                         {/*<span className='simple_text' style={{width:'100%', ...sty, justifyContent: 'flex-start', margin: '10px 0 10px 0'}}><HiOutlineLocationMarker /><p style={{marginLeft:'20px'}}>Curitiba</p></span>*/}
-                        <span className='simple_text' style={{width:'100%', ...sty, justifyContent: 'flex-start', margin: '10px 0 10px 0'}}><AiOutlinePhone /><p style={{marginLeft:'20px'}}>41 9 9812-4378</p></span>
+                        {/*<span className='simple_text' style={{width:'100%', ...sty, justifyContent: 'flex-start', margin: '10px 0 10px 0'}}><AiOutlinePhone /><p style={{marginLeft:'20px'}}>41 9 9812-4378</p></span>*/}
                         <span className='simple_text' style={{width:'100%', ...sty, justifyContent: 'flex-start', margin: '10px 0 10px 0'}}><AiOutlineMail /><p style={{marginLeft:'20px'}}>universomassagens@gmail.com</p></span>
                         <span className='simple_text' style={{width:'100%', ...sty, justifyContent: 'flex-start', margin: '10px 0 10px 0'}}><AiOutlineClockCircle /><p style={{marginLeft:'20px'}}>Seg - Sab 08:00 - 22:00 </p></span>
                     </div>
