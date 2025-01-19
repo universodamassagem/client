@@ -5,20 +5,20 @@
         "content": "Na Universo da Massagem , oferecemos uma variedade de massagens projetadas para acalmar a mente, relaxar o corpo e despertar os sentidos. Duas das opções mais populares entre nossos clientes são a massagem sensitiva e a massagem de relaxamento."
     },
     "bullet_list": [
+
         {
-            "strong": "Massagem Sensitiva:",
-            "text": "Esta técnica delicada e intuitiva é projetada para aumentar a consciência corporal e estimular os sentidos. Utilizando movimentos suaves e fluidos, nossos terapeutas trabalham para despertar e explorar as sensações do corpo, ajudando você a se conectar mais profundamente consigo mesmo e a liberar qualquer tensão ou bloqueio emocional."
+            "strong": "",
+            "text": ""
+        }
+    ],
+    "numeric_list": [
+        {
+            "strong": "Drenagem linfática pós-operatória",
+            "text": "A drenagem linfática pós-operatória é uma técnica manual terapêutica que auxilia no processo de recuperação após cirurgias. Seu objetivo principal é estimular o sistema linfático, reduzindo inchaços (edemas), eliminando líquidos retidos e toxinas, e promovendo a cicatrização."
         },
         {
             "strong": "Massagem de Relaxamento:",
-            "text": "Se você está procurando um refúgio tranquilo do estresse do dia a dia, nossa massagem de relaxamento é a escolha perfeita. Com movimentos suaves e envolventes, nossos terapeutas trabalham para aliviar a tensão muscular, acalmar a mente e promover uma sensação geral de calma e bem-estar. Deixe suas preocupações para trás enquanto você se entrega aos benefícios terapêuticos desta experiência indulgente."
-        }
-    ],
-    "more_text": "Independentemente do tipo de massagem que você escolher, nossa equipe dedicada está aqui para garantir que você saia sentindo-se renovado, revitalizado e completamente rejuvenescido. Reserve sua consulta hoje e descubra o poder transformador da massagem para o corpo, mente e espírito.",
-    "numeric_list": [
-        {
-            "strong": "Massagem Sueca:",
-            "text": "Uma das formas mais populares de massagem, a técnica sueca envolve movimentos suaves, deslizantes e firmes para relaxar os músculos e melhorar a circulação sanguínea."
+            "text": "A massagem de relaxamento é uma técnica terapêutica que tem como principal objetivo promover o bem-estar físico e mental, aliviando tensões musculares, reduzindo o estresse e proporcionando uma sensação geral de tranquilidade e conforto. "
         },
         {
             "strong": "Massagem Terapêutica:",
@@ -29,16 +29,8 @@
             "text": "Projetada para atletas e pessoas fisicamente ativas, esta massagem ajuda a aliviar a dor muscular, prevenir lesões e melhorar o desempenho atlético."
         },
         {
-            "strong": "Massagem de Tecido Profundo:",
-            "text": "Utilizando pressão mais intensa, esta técnica trabalha nas camadas mais profundas dos músculos para aliviar a tensão crônica e promover a recuperação muscular."
-        },
-        {
             "strong": "Massagem com Pedras Quentes:",
             "text": "Pedras aquecidas são colocadas sobre o corpo e usadas como extensões das mãos do terapeuta para proporcionar uma experiência de massagem profundamente relaxante e terapêutica."
-        },
-        {
-            "strong": "Massagem Tailandesa:",
-            "text": "Esta técnica combina pressão, alongamento e acupressão para liberar a energia bloqueada e restaurar o equilíbrio no corpo."
         },
         {
             "strong": "Massagem Shiatsu:",
@@ -49,5 +41,5 @@
             "text": "Esta técnica baseia-se na crença de que certos pontos nos pés, mãos e orelhas correspondem a diferentes partes do corpo. A estimulação desses pontos pode ajudar a aliviar o estresse e promover a cura."
         }
     ],
-    "more_text2": "Independentemente do tipo de massagem que você escolher, nossos terapeutas altamente qualificados estão aqui para oferecer uma experiência personalizada que atenda às suas necessidades individuais e promova o seu bem-estar total."
+    "more_text2": "Faça seu angendamento pelo WhatsApp"
 }

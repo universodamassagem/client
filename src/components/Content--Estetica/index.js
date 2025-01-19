@@ -18,6 +18,12 @@ export default function Content_Estetica() {
         <div className='wrap_all'>
             <div className='center_all'>
                 {/* Texto Titulo pequeno alinhado a esquerda: */}
+
+                <Texto2
+                    conteudo={txts[2].conteudo}
+                    titulo={txts[2].titulo}
+                />
+
                 <Texto1
                     conteudo={txts[0].conteudo}
                     titulo={txts[0].titulo}
@@ -25,24 +31,20 @@ export default function Content_Estetica() {
                 <TextBullet
                     BLista={txts[0].bullet_list}
                 />
-                <Texto2
-                    conteudo={txts[2].conteudo}
-                    titulo={txts[2].titulo}
-                />
 
                 {/*<div className='Slideshow' style={{marginBottom: '30px'}}>
                 <img src={window.outerWidth > 960 ? sala_img : ''}></img>
             </div>*/}
-
+                {/*
                 <Texto1
                     conteudo={txts[1].conteudo}
                     titulo={txts[1].titulo}
                 />
-                
+               
                 <Texto1
                     conteudo={txts[1].t}
                     titulo={' '}
-                />
+                />*/}
 
                 {/*<div className='Slideshow' style={{ marginBottom:'30px', display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                 <img src={window.outerWidth > 960 ? limpeza_de_pele : ''}></img>

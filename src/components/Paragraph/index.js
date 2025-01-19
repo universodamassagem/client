@@ -4,7 +4,7 @@ const Paragraph = ({ text, styleBold }) => (
             text.map((paragraph, idx) => (
                 <p
                     key={idx}
-                    style={styleBold ? { fontWeight: idx === 4 ? "bold" : "" } : {}}
+                    style={styleBold ? { fontWeight: "bold", fontSize:'1.2em' } : {}}
                 >
                     {paragraph}
                 </p>

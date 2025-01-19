@@ -33,7 +33,7 @@ export default function Footer() {
                <a href={''}><span><FiTwitter /></span></a>
             </div>*/}
             <div className='f f--copyRight'>
-                <p>© Universo da Massagem 2024 / Susiane Domingues Monteny</p>
+                <p>© Universo da Massagem 2025</p>
             </div>
         </footer>
     );

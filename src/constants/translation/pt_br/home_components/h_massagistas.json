@@ -1,11 +1,11 @@
 {
     "title": "Massagista",
-    "msg": "Conheça nossa massagista",
+    "msg": "Massagista",
     "button": "Ver perfil",
     "massagistas": [
         {
             "id":1,
-            "name": "Susiane",
+            "name": "Suzi",
             "city": "Curitiba",
             "img": {
                 "avatar": "",

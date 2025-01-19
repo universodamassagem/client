@@ -9,10 +9,11 @@ import txts from '../../constants/translation/pt_br/home_components/h_massagista
 
 //TMP imagens:
 import avatar from "../../assets/tmp_mon/avatar.jpg"
-import i1 from "../../assets/tmp_mon/i1.jpg"
 import i2 from "../../assets/tmp_mon/i2.jpg"
 import i3 from "../../assets/tmp_mon/i3.jpg"
 import i4 from "../../assets/tmp_mon/i4.jpg"
+import i5 from "../../assets/tmp_mon/i5.jpg"
+import VID_20250119_WA0013 from "../../assets/tmp_mon/VID-20250119-WA0013.mp4"
 
 const L = [
     {
@@ -53,34 +54,47 @@ const L = [
     },*/
 ]
 
-export default function PerfilContent () {
+export default function PerfilContent() {
 
     return (
-        <div id="PerfilContent" style={{...sty, flexDirection: 'column'}}>
-             <div id='perfil-wrapper' style={{width:'80%',  ...sty, flexDirection:'column'}}>
+        <div id="PerfilContent" style={{ ...sty, flexDirection: 'column' }}>
+            <div id='perfil-wrapper' style={{ width: '80%', ...sty, flexDirection: 'column' }}>
                 <div id='avatar'>
-                    <img src={avatar}/>
+                    <img src={avatar} />
                 </div>
                 <div className="name-margin">
-                    <h2 id='name' style={{fontSize: '36px'}}>{txts.massagistas[0].name}</h2>
+                    <h2 id='name' style={{ fontSize: '36px' }}>{txts.massagistas[0].name}</h2>
                 </div>
                 <p id='descricao'>{txts.massagistas[0].desc}</p>
             </div>
             <Desc />
             <span id='fotos-title'><p>Imagens</p></span>
             <div id='fotos'>
+
                 <div>
-                    <img src={i1}/>
+                    <img src={i2} />
+                </div>
+
+                <div>
+                    <img src={i3} />
+                </div>
+
+                <div>
+                    <img src={i4} />
                 </div>
                 <div>
-                    <img src={i2}/>
+                    <img src={i5} />
                 </div>
-                {/*<div>
-                    <img src={i3}/>
-                </div>*/}
-                <div>
-                    <img src={i4}/>
-                </div>
+            </div>
+
+<div style={{padding:'40px 0 120px 0'}}>
+            <span id='fotos-title'><p>Vídeo</p></span>
+            <div id='fotos center'>
+                <video width="720" height="440" controls>
+                    <source src={VID_20250119_WA0013} type="video/mp4" />
+                </video>
+
+            </div>
             </div>
         </div>
     );
@@ -88,9 +102,9 @@ export default function PerfilContent () {
 
 
 const sty = {
-    display:'flex', 
-    alignItems:'center',
-    justifyContent:'center'
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
 }
 
 const Desc = () => {
@@ -114,11 +128,11 @@ const Desc = () => {
                             <span id="number">{txts.massagistas[0].email}</span>
                         </div>
                     </div>
-                    <DList attr={L[0]}/>
-                    <DList attr={L[1]}/>
+                    <DList attr={L[0]} />
+                    <DList attr={L[1]} />
                 </div>
                 <div className='desc-bot--right'>
-                    <DList attr={L[2]}/>
+                    <DList attr={L[2]} />
                     {/*<DList attr={L[3]}/>*/}
                 </div>
             </div>
@@ -126,12 +140,12 @@ const Desc = () => {
     )
 }
 
-const DList = ({attr}) => {
+const DList = ({ attr }) => {
     return (
         <div id='DList'>
             <dl>
                 <dt>{`${attr.title}:`}</dt>
-                {attr.list.map((it, idx)=>(
+                {attr.list.map((it, idx) => (
                     <dd key={idx}>{`• ${it}`}</dd>
                 ))}
             </dl>

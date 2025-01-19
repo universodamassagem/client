@@ -1,27 +1,24 @@
 [
     {
-        "titulo": "Bem Estar",
-        "conteudo": "Utilizamos técnicas avançadas de depilação com cera para remover eficazmente o excesso de pelos, deixando a pele suave, macia e livre de pelos por semanas.",
+        "titulo": "Banho de lua",
+        "conteudo": "O banho de lua é uma técnica que clareia os pelos do corpo, além de hidratar e esfoliar a pele.\n\nOs passos do banho de Lua",
         "bullet_list": [
-            "Design de Sobrancelhas.",
-            "Cuidados com a Pele.",
-            "Serviços de Depilação.",
-            "Depilação com Cera"
+            "Preparar a pele com óleos ou creme natural/neutro.",
+            "Aplicar o creme descolorante.",
+            "Deixar o produto agir pelo tempo determinado.",
+            "Enxaguar abundantemente.",
+            "Esfoliar a pele para remover impurezas, células mortas e resíduos.",
+            "Hidratar a pele."
         ]
     },
-
     {
-        "titulo": "Tratamentos Faciais:",
-        "conteudo": "Nossos tratamentos faciais personalizados são projetados para limpar, hidratar e rejuvenescer a pele, deixando-a com uma aparência radiante e saudável."
-
+        "titulo": "Banho de lua",
+        "conteudo": ""
     },
-
     {
-        "titulo": "Tratamentos para a pele:",
-        "conteudo": "Oferecemos uma variedade de tratamentos para a pele, incluindo peelings químicos, microdermoabrasão e terapias de luz LED, para tratar uma variedade de preocupações, desde acne até sinais de envelhecimento."
-
+        "titulo": "Depilação com cera e máquina",
+        "conteudo": "Utilizamos técnicas avançadas de depilação com cera para remover eficazmente o excesso de pelos, deixando a pele suave, macia e livre de pelos por semanas."
     },
-
     {
         "t": "Na Universo da Massagem , estamos comprometidos em fornecer serviços de alta qualidade em um ambiente acolhedor e relaxante. Nossos profissionais dedicados estão aqui para garantir que você se sinta cuidado."
     }

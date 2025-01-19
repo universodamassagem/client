@@ -64,7 +64,7 @@ export default function Header (props) {
                         <div id='nav' className='nav_top'>
                             <ul>
                                 <li><a href="/">{txts.nav[0].toUpperCase()}</a></li>
-                                <li><a href="/Sobre">{txts.nav[1].toUpperCase()}</a></li>
+                                {/*<li><a href="/Sobre">{txts.nav[1].toUpperCase()}</a></li>*/}
                                 <li><a href="/Massagem">{txts.nav[2].toUpperCase()}</a></li>
                                 <li><a href="/Massagistas">{txts.nav[3].toUpperCase()}</a></li>
                                 <li><a href="/Estetica">{txts.nav[4].toUpperCase()}</a></li>
@@ -87,7 +87,7 @@ export default function Header (props) {
             <div id='mobile_nav'>
                 <ul>
                     <li onClick={() => history.push('/')}>HOME</li>
-                    <li onClick={() => history.push('/Sobre')}>SOBRE</li>
+                    {/*<li onClick={() => history.push('/Sobre')}>SOBRE</li>*/}
                     <li onClick={() => history.push('/Massagem')}>MASSAGEM</li>
                     <li onClick={() => history.push('/Massagistas')}>MASSAGISTAS</li>
                     <li onClick={() => history.push('/Estetica')}>ESTÉTICA</li>

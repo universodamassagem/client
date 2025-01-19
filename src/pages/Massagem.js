@@ -29,26 +29,11 @@ export default function Massagem() {
             <div className='wrap_all'>
                 <div className='center_all'>
 
-                    {/* OL: */}
-                    <div className='column_all'>
-                        <strong className='simple_titulo center' style={{ margin: '30px 0 30px 0', fontSize: '2.3em', fontWeight: 300 }}> Bem Estar</strong>
-                    </div>
-
-
-                    <Texto1
-                        conteudo={txts.text1.content}
-                        titulo={txts.text1.title}
-                    />
 
                     <div style={{ height: '50px' }} />
 
                     <BulletList
                         content={txts.bullet_list}
-                    />
-
-                    <Texto1
-                        conteudo={txts.more_text}
-                        titulo={''}
                     />
 
                     <div style={{ height: '50px' }} />
@@ -83,15 +68,16 @@ const BulletList = ({ content }) => {
         <div>
             {/* Bullet List: */}
             <div className='column_all' style={{ margin: '30px 0 10px 0' }}>
-                <div style={{ width: '100%' }}>
-                    <strong className='simple_titulo' style={{ margin: '30px 0 30px 0', fontSize: '1.2em', fontWeight: 300 }}>Massagens</strong>
+                <div style={{ width: '100%', textAlign: 'center' }}>
+                    <strong className='simple_titulo' style={{ margin: '30px 0 30px 0', fontSize: '1.4em', fontWeight: 300, textAlign: 'center' }}>
+                        Tratamentos e cuidados para dores físicas e mentais por meio do toque terapêutico, utilizando técnicas de relaxamento.
+                    </strong>
                 </div>
             </div>
 
             {
                 content.map((it, id) =>
                     <div style={{ display: 'flex' }}>
-                        <p className='simple_text'> • </p>
                         <p className='simple_text' style={{ marginLeft: '10px', lineHeight: 1.8 }}>
                             <strong>{it.strong}</strong>
                             {' ' + it.text}
@@ -110,15 +96,15 @@ const NumericList = ({ list }) => {
         <>
             <div className='column_all' style={{ margin: '30px 0 10px 0' }}>
                 <div style={{ width: '100%' }}>
-                    <strong className='simple_titulo' style={{ margin: '30px 0 30px 0', fontSize: '1.2em', fontWeight: 300 }}>Mais massagens</strong>
+                    <strong className='simple_titulo' style={{ margin: '30px 0 30px 0', fontSize: '1.2em', fontWeight: 300 }}></strong>
                 </div>
             </div>
             {
                 list.map((it, idx) =>
                     <div style={{ display: 'flex' }}>
-                        <p className='simple_text' style={{ fontSize: '1.2em' }}> {`0${idx + 1}.`} </p>
+                       
                         <p className='simple_text' style={{ marginLeft: '10px', fontSize: '1.2em', lineHeight: 1.8 }}>
-                            <strong>{it.strong}</strong>
+                            <strong style={{ color: '#c45455' }}>{it.strong}</strong>
                             {' ' + it.text}
                         </p>
                     </div>

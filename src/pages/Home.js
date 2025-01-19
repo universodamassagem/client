@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import WhatsApp from "../components/WhatsApp";
 import ScrollTop from "../components/ScrollTop";
 import HMassagistas from "../components/HomeComponents/HMassagistas"
-import Localizacao from "../components/HomeComponents/Localizacao"
+//import Localizacao from "../components/HomeComponents/Localizacao"
 import SobreAMassagem from "../components/HomeComponents/SobreAMassagem"
 import HForm from "../components/HomeComponents/HForm"
 import Banner from "../components/HomeComponents/Banner"

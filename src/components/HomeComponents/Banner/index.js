@@ -17,7 +17,8 @@ export default function Banner () {
                         <aside className='small_video_content'>
                             <strong>{txts.title.toUpperCase()}</strong>
                             <p>{txts.content}</p>
-                            <button><a href="/Sobre">{txts.button.toUpperCase()}</a></button>
+                            {/*<button><a href="/Sobre">{txts.button.toUpperCase()}</a></button>*/}
+                            <button><a href="/Massagem">{txts.button.toUpperCase()}</a></button>
                         </aside>
                     </div>
                     <figure >
